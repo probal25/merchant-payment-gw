@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+    margin-top: 30px;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.form-container h1 {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-text label {
+    font-weight: lighter;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    border-radius: 0;
+}
+
+.form-group input:focus {
+    box-shadow: none;
+}
+
+.form-group .error {
+    color: red;
+}

@@ -1,0 +1,19 @@
+# spring properties
+spring:
+  application:
+    name: MERCHANT-SERVICE
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/merchant_service
+    username: root
+    password: mysql
+  jpa:
+    hibernate:
+      ddl-auto: update
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+server:
+  port: 8001
